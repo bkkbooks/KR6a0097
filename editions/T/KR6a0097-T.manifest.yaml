@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6a0097/T/v1
+canonical_location: https://kanripo.org/bkk/KR6a0097/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 廣義法門經
+  identifiers:
+    krp: KR6a0097
+    cbeta: T01n0097
+    cbeta_old_id: T01n0097
+    authorityid: CA0001294
+    json_key: T0097
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0097.xml
+    old_id: T01n0097
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0097_000-T.yaml, hash: 'sha256:6385d76f64e0cdaac3f8a2ef8fb00cd72ec20a3be54971d4482fcf873a932d2f'}
+  - {seq: 1, filename: KR6a0097_001-T.yaml, hash: 'sha256:b5c084e73bfdedfbdb1841b1b0e2b721643d224ad7efe398b604a4392ad24bd4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6a0097_000-T.markers.yaml, hash: 'sha256:bf907c6f9170119390bacee65e7115150c0e990553791ab08a7905883dbb0495'}
+  - {seq: 1, role: markers, filename: assets/KR6a0097_001-T.markers.yaml, hash: 'sha256:f397d5ebf27429f09670ea4cf19b3cb48433d0cb4999fc2965b4c17d1b34097b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0097_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3931
+  label: 廣義法門經一卷出中阿含經一品
+  type: juan
+  level: 1
+hash: sha256:02f424718e44afdc65449f7a15e590fe5de2109a1c334ccbf1670a89a4f4a089
