@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0097_000.yaml, hash: 'sha256:6385d76f64e0cdaac3f8a2ef8fb00cd72ec20a3be54971d4482fcf873a932d2f'}
-  - {seq: 1, filename: KR6a0097_001.yaml, hash: 'sha256:69a7248175efa232765b91f94b74f7cb5d4496fdba8a87358a9727229f44aab1'}
+  - {seq: 1, filename: KR6a0097_001.yaml, hash: 'sha256:b5c084e73bfdedfbdb1841b1b0e2b721643d224ad7efe398b604a4392ad24bd4'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0097_001.markers.yaml, hash: 'sha256:3dbbaa0e100b36a65f86a5ce4f3744d2f715b99f71c7c1d788beddf76830f7d7'}
+  - {seq: 0, role: markers, filename: assets/KR6a0097_000.markers.yaml, hash: 'sha256:2fe8c8f075746974a57c984b5bab391b8437cc10f2801c14e042afcaac323b0a'}
+  - {seq: 1, role: markers, filename: assets/KR6a0097_001.markers.yaml, hash: 'sha256:675858dc966f1e0a7950d7a96be594475e7f3ed3b5cde80ea5b5930d1cfa83a2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 廣義法門經一卷出中阿含經一品
   type: juan
   level: 1
-hash: sha256:5fff0898caced2c6aacab496d6c372f90f3d219d30c96c1fafb4b85d54246463
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1cae87527889f8e6a1531c1d69c59cf1b0a088429b3a657eff815f40221e9a0f
