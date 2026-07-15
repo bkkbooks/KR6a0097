@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0097/v1
 canonical_location: https://kanripo.org/bkk/KR6a0097/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 廣義法門經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0097_000.yaml, hash: 'sha256:6385d76f64e0cdaac3f8a2ef8fb00cd72ec20a3be54971d4482fcf873a932d2f'}
-  - {seq: 1, filename: KR6a0097_001.yaml, hash: 'sha256:b5c084e73bfdedfbdb1841b1b0e2b721643d224ad7efe398b604a4392ad24bd4'}
+  - {seq: 1, filename: KR6a0097_001.yaml, hash: 'sha256:ffe2a2931b1d64da6957fee267feac82c4c2fba6966700e45ae9e678b652f13f'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0097_000.markers.yaml, hash: 'sha256:2fe8c8f075746974a57c984b5bab391b8437cc10f2801c14e042afcaac323b0a'}
-  - {seq: 1, role: markers, filename: assets/KR6a0097_001.markers.yaml, hash: 'sha256:675858dc966f1e0a7950d7a96be594475e7f3ed3b5cde80ea5b5930d1cfa83a2'}
+  - {seq: 1, role: markers, filename: assets/KR6a0097_001.markers.yaml, hash: 'sha256:562eb2dfa200e1fb42203363b97d4ed089b7f6b92f4c7c66fbff5a0d7d14c456'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 廣義法門經一卷出中阿含經一品
   type: juan
   level: 1
-hash: sha256:1cae87527889f8e6a1531c1d69c59cf1b0a088429b3a657eff815f40221e9a0f
+hash: sha256:39241a4949bb6265fe2419b0cdb3c7fbb998b880370b45412a64d3cda694ec6d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
